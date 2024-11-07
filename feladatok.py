@@ -27,6 +27,24 @@ def feladat2_2(lista):
         
     return db
 
-def feladat3(szov, szam):
-    
-    
+def feladat3(szov, N):
+    i:int=0
+    hossz:int=0
+    if N>len(szov):
+        print("Nincs N. karakter!")
+    else:
+        print(szov[N-1].upper()*3)
+        
+
+
+def feladat4():
+    szov= []
+    s=szov
+
+    szoveg:str=""
+    while szoveg !="@":
+        szoveg=input("Adj nevet!(kilépés @ jellel: ")
+        szov.append(szoveg)
+        if szoveg!="@":
+            print(szoveg)
+    print(f"A felhasználó {szov} nevet adott meg")

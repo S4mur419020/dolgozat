@@ -9,3 +9,9 @@ lista=feladatok.feladat2()
 print(lista)
 db=feladatok.feladat2_2(lista)
 print(f"A számok között {db} db 3-mal osztható van!")
+
+print("3.feladat")
+feladatok.feladat3()
+
+print("4.feladat")
+feladatok.feladat4()
